@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproduzindo áudio</title>
+</head>
+<body>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML.</p>
+    <audio src="midia/Soulicious-Dyalla.mp3" controls autoplay ></audio>
+
+    <h2>Segunda forma de reproduzir</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Soulicious-Dyalla.mp3" type="audio/mpeg">
+        <source src="midia/Soulicious-Dyalla.ogg" type="audio/ogg">
+        <source src="midia/Soulicious-Dyalla.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir esse áudio. <a href="midia/Soulicious-Dyalla.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
